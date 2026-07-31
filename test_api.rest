@@ -43,4 +43,15 @@ Content-Type: application/json
 }
 ###
 
+PUT http://localhost:5000/api/produk/8
+Content-Type: application/json
+
+{
+  "kategori_id": 2,
+  "nama_produk": "Otak-otak",
+  "harga": 5000,
+  "deskripsi": "Olahan ikan berbumbu yang dibungkus daun pisang lalu dipanggang hingga harum, disajikan dengan saus khas yang lezat."
+}
+###
+
 DELETE http://localhost:5000/api/produk/21
